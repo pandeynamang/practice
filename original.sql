@@ -19,3 +19,4 @@ UPDATE [Schema2].[Table2] SET Description = 'Practice' WHERE ID = 2;
 
 SELECT '[Schema1].table1' AS Practice FROM [Schema1].[Table1];
 SELECT '[Schema2].table2' AS Practice FROM [Schema2].[Table2];
+

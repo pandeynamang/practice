@@ -39,7 +39,6 @@ def main():
         'Schema1': 'NewSchema1',
         'Schema2': 'NewSchema2'
     }
-
     modified_content = replace_schema_names(sql_content, replacements)
 
     write_sql_file(new_file_path, modified_content)
